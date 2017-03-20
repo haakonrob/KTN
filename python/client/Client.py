@@ -57,7 +57,11 @@ class Client:
             if len(args)>1:
                 msg['content'] = inp[len(args[0])+1:]
             return msg
-        return " "
+        
+        else:
+            msg["content"] = ""
+            msg["request"] = ""
+            return msg
 
     def send_request(self, request):
         self.connection.send(request)
