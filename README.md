@@ -1,2 +1,2 @@
 # Simple server/clients
-This is where a couple of the various (not very useful) chat cliente/servers I've had to make over tbe years live. 
+This is the home of a few of the various chat clients/servers that I've had to make over tbe years. 
